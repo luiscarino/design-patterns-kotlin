@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_behavioral"
         android:icon="@drawable/ic_baseline_import_export_24px"
         android:title="@string/title_behavioral" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_creational"
         android:icon="@drawable/ic_baseline_create_24px"
         android:title="@string/title_creational" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_structural"
         android:icon="@drawable/ic_baseline_loop_24px"
         android:title="@string/title_structural" />
 
