@@ -1,12 +1,11 @@
 package io.luiscarino.design.patterns.kotlin.view.list.dummy
 
 object BehavioralPatterns {
-    val ITEMS = ArrayList<String>().apply {
-        add("Observer/Listener")
-        add("Strategy")
-        add("Command")
-        add("State")
-        add("Chain of Resposibility")
-        add("Visitor")
-    }
+    val ITEMS = listOf(
+        "Observer/Listener",
+        "Strategy",
+        "Command",
+        "State",
+        "Chain of Resposibility",
+        "Visitor") as ArrayList
 }
