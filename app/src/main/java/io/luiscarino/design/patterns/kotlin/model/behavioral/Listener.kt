@@ -2,6 +2,12 @@ package io.luiscarino.design.patterns.kotlin.model.behavioral
 
 import kotlin.properties.Delegates
 
+/**
+ * The Observer pattern is used to allow an object to publish changes to its state.
+ * Other objects subscribe to be immediately notified of any changes.
+ *
+ * This examples showcases a listener for a texview that prints the new value
+ */
 interface OnTextChangeListener {
     fun onTextChanged(newText: String)
 }
